@@ -1,0 +1,768 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    overflow: hidden;
+} */
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    color: white;
+    padding: 8px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+header{
+    background-color: #454545;
+    height: 45px;
+}
+.apple{
+    font-size: 20px;
+
+}
+#heroSection{
+    height: 620px;
+    width: 1265px;
+    background-image: url(iphone17.jpg);
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+
+}
+.tx-1{
+    font-family:  sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.tx-2{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: x-large;
+}
+.btn-1{
+     width: 130.72px;
+     height: 44px;
+     color: #ffff;
+     background-color: #0071E3;
+     border-radius: 50px;
+     font-family: sans-serif;
+     font-size: 17px;
+      border: #0071E3;
+}
+.btn-2{
+     width: 73.2px;
+     height: 44px;
+     color: #0071E3;
+     border: 1px solid #0071E3;
+     background-color: #000000;
+     border-radius: 50px;
+     font-family: sans-serif;
+     margin-left: 13px;
+     font-size: 17px;
+}
+.btn-2:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #0071E3;
+}
+#section-2{
+    width: 1265px;
+    height: 520px;
+   text-align: center;
+    overflow: hidden;
+    background-image: url(iphone-air.jpg);
+    background-size: cover;
+    margin-top: 8px;
+}
+.tx-3{
+    text-align: center;
+    font-family:  sans-serif;
+    color: rgb(0, 0, 0);
+    padding-top: 45px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+#tx-4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+
+    font-size: x-large;
+}
+.btn-3{
+     width: 130.72px;
+     height: 44px;
+     color: #ffff;
+     background-color: #0071E3;
+     border-radius: 50px;
+     font-family: sans-serif;
+     font-size: 17px;
+     border: #0071E3;
+}
+.btn-4{
+     width: 73.2px;
+     height: 44px;
+     color: #0071E3;
+     border: 1px solid #0071E3;
+     background-color: #ffffff;
+     border-radius: 50px;
+     font-family: sans-serif;
+     margin-left: 13px;
+     font-size: 17px;
+     margin-top: 15px;
+}
+.btn-4:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #0071E3;
+}
+
+#Section-3{
+    height: 620px;
+    width: 1265px;
+    background-image: url(hero_iphone_17.jpg);
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 8px;
+
+
+}
+.tx-5{
+    font-family:  sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 45px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.tx-6{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: x-large;
+}
+.btn-5{
+     width: 130.72px;
+     height: 44px;
+     color: #ffff;
+     background-color: #0071E3;
+     border-radius: 50px;
+     font-family: sans-serif;
+     font-size: 17px;
+      border: #0071E3;
+}
+.btn-6{
+     width: 73.2px;
+     height: 44px;
+     color: #0071E3;
+     border: 1px solid #0071E3;
+     background-color: #ffffff;
+     border-radius: 50px;
+     font-family: sans-serif;
+     margin-left: 13px;
+     font-size: 17px;
+}
+.btn-6:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #0071E3;
+}
+#section-4{
+  width: 614.5px;
+  height: 580px;
+  text-align: center;
+  margin: 8px;
+  background-color: #f5f5f7;
+
+  background-image: url("apple-watch-series-11-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+}
+
+img{
+ height: 37.5px;
+ padding-top: 55px;
+}
+#tx-7{
+    font-family:  sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 6px;
+    font-size: 20px;
+    
+}
+.btn-7{
+    width: 104.25px;
+    height: 36px;
+    color: #ffff;
+    background-color: #0071E3;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: #0071E3;
+    margin-top: 15px;
+}
+.btn-8{
+     width: 62px;
+    height: 36px;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-family: sans-serif;
+    margin-left: 13px;
+    font-size: 15px;
+}
+.btn-8:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #0071E3;
+}
+#section-5{
+    display: inline-block;
+  width: 614.5px;
+  height: 580px;
+  text-align: center;
+  margin: 8px;
+  background-color: #f5f5f7;
+
+  background-image: url(hero__.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  margin-left: 5px;
+}
+
+#section-5 h2{
+ height: 37.5px;
+ padding-top: 55px;
+ font-family: sans-serif;
+ font-size: 37px ;
+}
+#tx-8{
+    font-family:  sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 6px;
+    font-size: 20px;
+    
+}
+.btn-9{
+    width: 104.25px;
+    height: 36px;
+    color: #ffff;
+    background-color: #0071E3;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: #0071E3;
+    margin-top: 15px;
+}
+.btn-10{
+     width: 62px;
+    height: 36px;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-family: sans-serif;
+    margin-left: 13px;
+    font-size: 15px;
+}
+.btn-10:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #0071E3;
+}
+#section-6{
+    display: inline-block;
+  width: 614.5px;
+  height: 580px;
+  text-align: center;
+  margin: 8px;
+  background-color: #f5f5f7;
+
+  background-image: url(Generated\ Image\ October\ 05\,\ 2025\ -\ 3_57PM.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  margin-left: 5px;
+}
+#section-6 h2{
+ height: 37.5px;
+ padding-top: 55px;
+ font-family: sans-serif;
+ font-size: 37px ;
+}
+#tx-8{
+    font-family:  sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 6px;
+    font-size: 20px;
+    
+}
+.btn-11{
+    width: 104.25px;
+    height: 36px;
+    color: #ffff;
+    background-color: #0071E3;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: #0071E3;
+    margin-top: 396px;
+}
+#section-7{
+    display: inline-block;
+  width: 614.5px;
+  height: 580px;
+  text-align: center;
+  margin: 8px;
+  background-color: #f5f5f7;
+
+  background-image: url(macbook.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  margin-left: 5px;
+}
+
+#section-7 h2{
+ height: 37.5px;
+ padding-top: 55px;
+ font-family: sans-serif;
+ font-size: 37px ;
+}
+#tx-9{
+    font-family:  sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 6px;
+    font-size: 20px;
+    
+}
+.btn-12{
+    width: 104.25px;
+    height: 36px;
+    color: #ffff;
+    background-color: #0071E3;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: #0071E3;
+    margin-top: 15px;
+}
+.btn-13{
+     width: 62px;
+    height: 36px;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+    background-color: transparent;
+    border-radius: 50px;
+    font-family: sans-serif;
+    margin-left: 13px;
+    font-size: 15px;
+}
+.btn-13:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #0071E3;
+}
+/* #section-8{
+   
+  width: 614.5px;
+  height: 580px;
+  margin: 8px;
+  background-color: #f5f5f7;
+  background-image: url(Generated\ Image\ October\ 05\,\ 2025\ -\ 7_33PM.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  margin-left: 5px;
+} */
+#section-8{
+  width: 614.5px;
+  height: 580px;
+  text-align: center;
+  margin: 8px;
+  background-color: #f5f5f7;
+
+  background-image: url(Generated\ Image\ October\ 05\,\ 2025\ -\ 7_33PM.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+}
+
+img{
+ height: 37.5px;
+ padding-top: 55px;
+}
+#tx-10{
+    font-family:  sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 6px;
+    font-size: 20px;
+    
+}
+.btn-14{
+    width: 129.25px;
+    height: 36px;
+    color: #ffff;
+    background-color: #0071E3;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: #0071E3;
+    margin-top: 15px;
+}
+.btn-8{
+     width: 62px;
+    height: 36px;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-family: sans-serif;
+    margin-left: 13px;
+    font-size: 15px;
+}
+.btn-14:hover{
+    cursor: pointer;
+}
+#section-9{
+  width: 614.5px;
+  height: 580px;
+  text-align: center;
+  margin: 8px;
+  background-color: #f5f5f7;
+
+  background-image: url(Generated\ Image\ October\ 05\,\ 2025\ -\ 7_49PM.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+}
+
+img{
+ height: 37.5px;
+ padding-top: 1px;
+}
+#tx-11{
+    font-family:  sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 6px;
+    font-size: 20px;
+    
+}
+.btn-15{
+    width: 104.25px;
+    height: 36px;
+    color: #ffff;
+    background-color: #0071E3;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-size: 14px;
+    border: #0071E3;
+    margin-top: 15px;
+}
+.btn-16{
+     width: 104.25px;
+    height: 36px;
+    color: #0071E3;
+    border: 1px solid #0071E3;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-family: sans-serif;
+    margin-left: 13px;
+    font-size: 15px;
+}
+.btn-16:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #0071E3;
+}
+
+
+
+.carousel {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.slides {
+  width: 300%;
+  height: 100%;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 33.3333%;
+  transition: 1s ease;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Manual navigation (dots) */
+.manual-navigation {
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0 6px;
+}
+
+.manual-btn:hover {
+  background: #fff;
+}
+
+/* Slide control using radio buttons */
+#slide1:checked ~ .first {
+  margin-left: 0;
+}
+
+#slide2:checked ~ .first {
+  margin-left: -33.3333%;
+}
+
+#slide3:checked ~ .first {
+  margin-left: -66.6666%;
+}
+.apple-carousel-2 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  padding: 40px 0;
+}
+
+.apple-track {
+  display: flex;
+  width: calc(417px * 12); /* 6 originals + 6 duplicates */
+  animation: apple-scroll 25s linear infinite;
+}
+
+.apple-carousel-2:hover .apple-track {
+  animation-play-state: paused;
+}
+
+.apple-slide {
+  width: 417px;
+  height: 236px;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-right: 20px;
+  position: relative;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.apple-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+  transition: transform 0.4s ease;
+}
+
+/* Hover zoom effect */
+.apple-slide:hover img {
+  transform: scale(1.05);
+}
+
+.apple-slide p {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
+.apple-slide span {
+  font-size: 13px;
+  opacity: 0.9;
+  margin-left: 5px;
+}
+
+/* Learn more button */
+.learn-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Button shows on hover */
+.apple-slide:hover .learn-btn {
+  opacity: 1;
+}
+
+/* Infinite scroll animation */
+@keyframes apple-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+/* hover zoom image */
+.apple-slide:hover img {
+  transform: scale(1.05);
+}
+
+.apple-slide p {
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
+.apple-slide span {
+  font-size: 12px;
+  opacity: 0.9;
+  margin-left: 5px;
+}
+
+/* Learn more button */
+.learn-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Button shows on hover */
+.apple-slide:hover .learn-btn {
+  opacity: 10;
+}
+
+/* Smooth infinite scroll */
+@keyframes apple-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* footer */
+
+.footer {
+  background: #f5f5f7;
+  color: #1d1d1f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
+  padding: 40px 0;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid #d2d2d7;
+  margin: 20px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.footer-col h4 {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.footer-col p {
+  margin: 0;
+  color: #424245;
+  font-size: 12.5px;
+}
+
+.note {
+  color: #6e6e73;
+  font-size: 12px;
+}
+
+.copyright {
+  text-align: center;
+  color: #6e6e73;
+  font-size: 12px;
+}
+
+
+
+
